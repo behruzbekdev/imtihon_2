@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.btncha:hover > i{
+    color: blue;
+}
+@media only screen and (max-width:960px){
+    .btncha{
+        margin-left: 0px!important;
+    }
+    .divda{
+        margin-left: 0px!important;
+    }
+    .item_1{
+        display: grid;
+        justify-content: center;
+    }
+    .rasmde{
+        width: 100%;
+        align-items: center;
+    }
+}
+@media only screen and (min-width:600px){
+    .divda{
+        margin-left: 250px!important;
+    }
+    .dd{
+        margin-top: 20px!important;
+    }
+    .dah{
+        width: 10%;
+        height: 0px!important;
+    }
+    .allda{
+        contain: none;
+    }
+
+}
+.rasmde{
+    border-radius: 10px;
+}
+.whiteniki{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+.marginun{
+    margin-top: 20px;
+}
+.whiteniki_2{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
+}
+@media only screen and (max-width: 1000px){
+    .whiteniki, .whiteniki_2{
+        display: none!important;
+    }
+}
+.col_6_3{
+     padding: 20px;
+     background-color: white;
+     margin-top: 20px;
+     border-radius: 5px;
+}
+.mayda{
+    margin-top: 20px;
+}
+.greyniki{
+    width: 100%;
+    background-color: rgb(209, 205, 205);
+}
+.divdur{
+    display: flex;
+}
+.divdurr{
+    background-color: rgb(218, 218, 218);
+    margin-left: 15px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+}
+.buttoun:hover{
+    background-color: blue!important;
+    color: white!important;
+    transition: all 1s;
+}
+.nom:hover{
+    background-color: blue!important;
+    color: white!important;
+    transition: all 1s;
+}
+.col_6_6{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+}
+.item_2{
+    border: 1px solid grey;
+    padding: 10px;
+    margin-top: 20px;
+}
+.sasd:hover{
+    color: blue;
+    transition: all 1s;
+    cursor: pointer;
+}
+.saddas{
+    list-style-type: none;
+    margin-left: -20px;
+}
+.nmas{
+    font-size: 25px;
+}

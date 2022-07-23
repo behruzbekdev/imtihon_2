@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Enter your description here" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="./main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Title</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+  <div class="container-fluid">
+      <nav  style="display: flex;justify-content: space-between;position: fixed;margin-bottom: 200px; width: 100%;" class="navbar dada navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="btn text-secondary py-0 me-sm-3 sidebar-start-toggle">
+        <i class="bi bi-justify-left fs-3 lh-1"></i>
+      </a>
+          <a class="navbar-brand" href="#"><img src="./logo.svg" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div style="margin-left:330px;" class="collapse divda navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li style="margin-left: 60px;"  class="nav-item dropdown">
+                <a class="nav-link" href="#" id="navbarScrollingDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa-solid fa-house-chimney"></i>
+                </a>
+              <li style="margin-left: 60px;"  class="nav-item dropdown">
+                <a style="color: grey;" class="nav-link" href="#" id="navbarScrollingDropdown"
+                  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa-solid fa-folder"></i>
+                </a>
+              <li style="margin-left: 60px;" class="nav-item dropdown">
+                <a style="color: grey;" class="nav-link" href="#" id="navbarScrollingDropdown"
+                  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa-solid fa-user-group"></i>
+                </a>
+              </li>
+              <li style="margin-left: 60px;"  class="nav-item">
+                <a style="color: grey;" class="nav-link"><i class="fa-solid fa-message"></i></a>
+              </li>
+              <li style="margin-left: 60px;"  class="nav-item">
+                <a style="color: grey;" class="nav-link"><i class="fa-solid fa-bell"></i></i></a>
+              </li>
+              <li style="margin-left: 60px;"  class="nav-item">
+                <a style="color: grey;" class="nav-link"><link rel="stylesheet" href="./index-classic.html"></i></a>
+              </li>
+            </ul>
+          </div>
+          <button class="btncha" style="margin-left: 20px;border-radius: 10px;border: none;"><img
+              style="border-radius: 10px;" width="40px" src="./07.jpg" alt=""></button>
+        </div>
+      </nav>
+  </div>
+
+  <div style="background-color: rgb(194, 191, 191);" class="">
+      <div class="row p-0 m-0">
+        <div style="height: 92vh;overflow: scroll;position: fixed;margin-top: 50px; " class="col-md-1">
+          <div class="col-lg">
+
+            <div class="d-flex align-items-center d-sm-none">
+              <button class="border-0 bg-transparent" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasSideNavbar" aria-controls="offcanvasSideNavbar">
+                <i class="btn btn-primary fw-bold fa-solid fa-sliders-h"></i>
+                <span class="h6 mb-0 fw-bold d-lg-none ms-2">My profile</span>
+              </button>
+            </div>
+
+            <nav class="navbar navbar-expand-lg mx-0">
+              <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasSideNavbar" style="visibility: hidden;"
+                aria-hidden="true">
+                <div class="offcanvas-header">
+                  <button type="button" class="btn-close text-reset ms-auto" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+                </div>
+
+                <div class="offcanvas-body d-block px-2 px-lg-0">
+                  <div class="card overflow-hidden">
+                    <div class="h-50px"
+                      style="background-image:url(assets/images/bg/01.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;">
+                    </div>
+                    <div class="card-body pb-50">
+                        <div class="avatar naos avatar-lg mt-n5">
+                          <ul class="saddas">
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <li><i class="fa-brands fa-twitter"></i>v</li>
+                          </ul>
+                       
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <div style="margin: 0 auto; width: 80%;" class="col-md-11 allda mt-5">
+                      <div class="container">
+                        
+          <div style="margin-top: 40px;" class="owl-carousel owl-theme">
+            <div class="item item_1" style="width: 100%;height:100px;"><button class="btn rounded-circle mt-4"
+                style="background-color: rgb(212, 212, 212);text-align: center;"><i
+                  class="fa-solid fa-plus"></i></button>
+              <p style="font-size: 10px;">Post a story</p>
+            </div>
+            <div class="item item_1"><img style="border-radius: 50px;" class="rasmde" height="100px" src="./07.jpg" alt="">Sam Lanson</div>
+            <div class="item item_1"><img style="border-radius: 50px;" class="rasmde" height="100px"
+                src="./ab6761610000e5ebf2ca3caae6e71d3cad863328.jfif" alt="">samir biposh</div>
+            <div class="item item_1"><img style="border-radius: 50px;" class="rasmde" height="100px" src="./07.jpg" alt="">Sam Lanson</div>
+            <div class="item item_1"><img style="border-radius: 50px;" class="rasmde" height="100px"
+                src="./ab6761610000e5ebf2ca3caae6e71d3cad863328.jfif" alt="">samir biposh</div>
+            <div class="item item_1"><img style="border-radius: 50px;" class="rasmde" height="100px" src="./07.jpg" alt="">Sam Lanson</div>
+            <div class="item item_1"><img style="border-radius: 50px;" class="rasmde" height="100px"
+                src="./ab6761610000e5ebf2ca3caae6e71d3cad863328.jfif" alt="">samir biposh</div>
+            <div class="item item_1"><img style="border-radius: 50px;" class="rasmde" height="100px" src="./07.jpg" alt="">Sam Lanson</div>
+            <div class="item item_1"><img style="border-radius: 50px;" class="rasmde" height="100px"
+                src="./ab6761610000e5ebf2ca3caae6e71d3cad863328.jfif" alt="">samir biposh</div>
+            <div class="item item_1"><img style="border-radius: 50px;" class="rasmde" height="100px" src="./07.jpg" alt="">Sam Lanson</div>
+            <div class="item item_1"><img style="border-radius: 50px;" class="rasmde" height="100px"
+                src="./ab6761610000e5ebf2ca3caae6e71d3cad863328.jfif" alt="">samir biposh</div>
+            <div class="item item_1"><img style="border-radius: 50px;" class="rasmde" height="100px" src="./07.jpg" alt="">Sam Lanson</div>
+            <div class="item item_1"><img style="border-radius: 50px;" class="rasmde" height="100px"
+                src="./ab6761610000e5ebf2ca3caae6e71d3cad863328.jfif" alt="">samir biposh</div>
+          </div>
+          <div style="background-color: white;border-radius: 10px;width: 100%;" class="center_col_1 p-3 mt-4">
+            <div style="width: 100%;display: flex;">
+              <div style="width: 10%;" class="avatar">
+                <img class="w-100 rounded-circle" src="./03.jpg" alt="">
+              </div>
+              <div style="width: 90%;" class="textar">
+                <textarea class="form-control pe-4 border-0" rows="2" data-autoresize=""
+                  placeholder="Share your thoughts..." style="height: 61px;"></textarea>
+              </div>
+            </div>
+
+            <div class="mt-5">
+              <a href="#"
+                style="text-decoration: none;color: black;background-color: rgb(197, 197, 197);padding: 5px;border-radius: 10px;"><i
+                  class="fa-solid fa-photo-film"></i> <span>Photo</span></a>
+              <a href="#"
+                style="text-decoration: none;color: black;background-color: rgb(197, 197, 197);padding: 5px;border-radius: 10px;"><i
+                  class="fa-solid fa-photo-film"></i> <span>Photo</span></a>
+              <a href="#"
+                style="text-decoration: none;color: black;background-color: rgb(197, 197, 197);padding: 5px;border-radius: 10px;"><i
+                  class="fa-solid fa-photo-film"></i> <span>Photo</span></a>
+              <a href="#"
+                style="text-decoration: none;color: black;background-color: rgb(197, 197, 197);padding: 5px;border-radius: 10px;"><i
+                  class="fa-solid fa-photo-film"></i> <span>Photo</span></a>
+              <a href="#"
+                style="text-decoration: none;color: black;background-color: rgb(197, 197, 197);padding: 5px;border-radius: 10px;"><i
+                  class="fa-solid fa-photo-film"></i> <span>Photo</span></a>
+              <span
+                style="float: right; background-color: rgb(201, 201, 201);padding: 5px;border-radius: 5px;">...</span>
+            </div>
+          </div>
+          <div class="col_6_3">
+            <div> <img width="10%" style="border-radius: 50px;border: 2px solid blue;" src="./04.jpg" alt="">
+              <h6 style="display: inline-block;">Lori Ferguson</h6>
+              <span style="color: grey;">2hr</span>
+              <span style="float: right;">...</span>
+              <p style="color: grey;margin-top: 20px;">I'm thrilled to share that I've completed a graduate certificate
+                course in project management with the president's honor roll.</p>
+              <img style="width: 100%;border-radius: 10px;" src="./01.jpg" alt="">
+            </div>
+            <div class="mayda">
+              <i style="color: blue;" class="fa-solid fa-thumbs-up"></i> <span style="color: blue;">(56)</span>
+              <i class="fa-solid fa-comment"></i> <span>Comments (12)</span>
+              <span style="float: right;"><i class="fa-solid fa-share"></i> Share (3)</span>
+            </div>
+            <div style="display: flex;margin-top: 20px;">
+              <img width="10%" style="border-radius: 50px;display: inline-block;" src="./01.jpg" alt="">
+              <input value="https://social.webestica.com/index.html#!" style="display: inline-block;margin-left: 10px;"
+                class="form-control" type="gmail">
+            </div>
+            <div class="col_6_4" style="margin-top: 20px;">
+              <div class="divdur">
+                <img width="10%" height="50px" style="border-radius: 50px;display: inline-block;" src="./01.jpg" alt="">
+
+                <div class="divdurr">
+                    <h5 style="display: inline-block;">Frances Guerrero</h5>
+                    <span style="float: right;">5hr</span>
+                    <p>Removed demands expense account in outward tedious do. Particular way thoroughly unaffected projection.</p>
+                </div>
+              </div>
+              <ul>
+                <li style="display: inline-block;margin-left: 20px;list-style-type:circle ;">Like (3) </li>
+                <li style="display: inline-block;margin-left: 20px;list-style-type:circle ;">Reply </li>
+                <li style="display: inline-block;margin-left: 20px;list-style-type:circle ;">View 5 replies </li>
+              </ul>
+              <div style="margin-top: 20px; margin-left: 55px;" class="divdur">
+                <img width="10%" height="50px" style="border-radius: 50px;display: inline-block;" src="./01.jpg" alt="">
+
+                <div class="divdurr">
+                    <h5 style="display: inline-block;">Frances Guerrero</h5>
+                    <span style="float: right;">5hr</span>
+                    <p>Removed demands expense account in outward tedious do. Particular way thoroughly unaffected projection.</p>
+                </div>
+              </div>
+              <ul style="margin-left: 55px;">
+                <li style="display: inline-block;margin-left: 20px;list-style-type:circle ;">Like (3) </li>
+                <li style="display: inline-block;margin-left: 20px;list-style-type:circle ;">Reply </li>
+                <li style="display: inline-block;margin-left: 20px;list-style-type:circle ;">View 5 replies </li>
+              </ul>
+              <div style="margin-top: 20px; margin-left: 55px;" class="divdur">
+                <img width="10%" height="50px" style="border-radius: 50px;display: inline-block;" src="./01.jpg" alt="">
+
+                <div class="divdurr">
+                    <h5 style="display: inline-block;">Frances Guerrero</h5>
+                    <span style="float: right;">5hr</span>
+                    <p>Removed demands expense account in outward tedious do. Particular way thoroughly unaffected projection.</p>
+                </div>
+              </div>
+              <ul style="margin-left: 55px;">
+                <li style="display: inline-block;margin-left: 20px;list-style-type:circle ;">Like (3) </li>
+                <li style="display: inline-block;margin-left: 20px;list-style-type:circle ;">Reply </li>
+                <li style="display: inline-block;margin-left: 20px;list-style-type:circle ;">View 5 replies </li>
+              </ul>
+              <p style="margin-left: 50px;">... Load more replies</p>
+
+              <div class="divdur">
+                <img width="10%" height="50px" style="border-radius: 50px;display: inline-block;" src="./01.jpg" alt="">
+
+                <div class="divdurr">
+                    <h5 style="display: inline-block;">Frances Guerrero</h5>
+                    <span style="float: right;">5hr</span>
+                    <p>Removed demands expense account in outward tedious do. Particular way thoroughly unaffected projection.</p>
+                </div>
+              </div>
+              <ul>
+                <li style="display: inline-block;margin-left: 20px;list-style-type:circle ;">Like (3) </li>
+                <li style="display: inline-block;margin-left: 20px;list-style-type:circle ;">Reply </li>
+                <li style="display: inline-block;margin-left: 20px;list-style-type:circle ;">View 5 replies </li>
+              </ul>
+              <p>... Load more comments</p>
+              <div class="col_6_5 p-3">
+                <img width="10%" src="./12.svg" alt="">
+                <span>Bootstrap:Front-end framework</span>
+                <span style="float:right;">...</span>
+                <hr style="margin-top: 30px;">
+                <p>Quickly design and customize responsive mobile-first sites with Bootstrap.</p>
+                <img style="margin-bottom: 20px;" width="100%" src="./02.jpg" alt="">
+                <span style="margin-top: 30px;">Currently v5.1.3</span>
+                <span><a class="buttoun" href="#" style="text-decoration: none; padding: 5px 20px;float: right; background-color: rgb(169, 169, 255);color: blue;border-radius: 5px;">Download Now</a></span>
+              </div>
+            </div>
+            
+          </div>
+          
+          <div class="col_6_6">
+            <img width="10%" style="border-radius: 50px;" src="./04.jpg" alt="">
+            <b>Judy Nyugen</b>
+            <span style="float: right;">...</span>
+            <p style="margin-top: 10px;">I'm so privileged to be involved in the @bootstrap hiring process! Interviewing with their team was fun and I hope this can be a valuable resource for folks!</p>
+            <div class="row">
+              <div class="col-md-6">
+                <img style="border-radius: 10px;" width="100%" src="./03 (1).jpg" alt="">
+              </div>
+              <div class="col-md-6 dd">
+                <img class="responsiveneed" style="border-radius: 10px;" width="100%" src="./02.jpg" alt="">
+                <img style="margin-top: 15px;border-radius: 10px;" height="120px" width="100%" src="./04.jpg" alt="">
+              </div>
+            </div>
+            <div style="margin-top: 20px;">
+            <i class="fa-solid fa-heart"></i>
+            <span>Lorem ipsum dolor sit amet.</span>
+            <span style="float: right;color: grey;">comments (12) </span>
+            <ul style="display: flex;justify-content:space-between;margin-top: 20px; border: 1px solid grey;border-left: none;border-right: none; padding: 10px;">
+              <li style="display: inline-block;"><a style="padding: 5px 10px;text-decoration: none;background-color: rgb(209, 209, 209);border-radius: 5px;" href="">Liked 56</a></li>
+              <li style="display: inline-block;">Share (3) </li>
+              <li style="display: inline-block;">Send </li>
+            </ul>
+            <div class="col_6_4" style="margin-top: 20px;">
+              <div class="divdur">
+                <img width="10%" height="50px" style="border-radius: 50px;display: inline-block;" src="./01.jpg" alt="">
+
+                <div class="divdurr">
+                    <h5 style="display: inline-block;">Frances Guerrero</h5>
+                    <span style="float: right;">5hr</span>
+                    <p>Removed demands expense account in outward tedious do. Particular way thoroughly unaffected projection.</p>
+                </div>
+              </div>
+              <ul>
+                <li style="display: inline-block;margin-left: 20px;list-style-type:circle ;">Like (3) </li>
+                <li style="display: inline-block;margin-left: 20px;list-style-type:circle ;">Reply </li>
+                <li style="display: inline-block;margin-left: 20px;list-style-type:circle ;">View 5 replies </li>
+              </ul>
+              <div style="margin-top: 20px; margin-left: 55px;" class="divdur">
+                <img width="10%" height="50px" style="border-radius: 50px;display: inline-block;" src="./01.jpg" alt="">
+
+                <div class="divdurr">
+                    <h5 style="display: inline-block;">Frances Guerrero</h5>
+                    <span style="float: right;">5hr</span>
+                    <p>Removed demands expense account in outward tedious do. Particular way thoroughly unaffected projection.</p>
+                </div>
+              </div>
+              <ul style="margin-left: 55px;">
+                <li style="display: inline-block;margin-left: 20px;list-style-type:circle ;">Like (3) </li>
+                <li style="display: inline-block;margin-left: 20px;list-style-type:circle ;">Reply </li>
+                <li style="display: inline-block;margin-left: 20px;list-style-type:circle ;">View 5 replies </li>
+              </ul>
+              <div style="margin-top: 20px; margin-left: 55px;" class="divdur">
+                <img width="10%" height="50px" style="border-radius: 50px;display: inline-block;" src="./01.jpg" alt="">
+
+                <div class="divdurr">
+                    <h5 style="display: inline-block;">Frances Guerrero</h5>
+                    <span style="float: right;">5hr</span>
+                    <p>Removed demands expense account in outward tedious do. Particular way thoroughly unaffected projection.</p>
+                </div>
+              </div>
+              <ul style="margin-left: 55px;">
+                <li style="display: inline-block;margin-left: 20px;list-style-type:circle ;">Like (3) </li>
+                <li style="display: inline-block;margin-left: 20px;list-style-type:circle ;">Reply </li>
+                <li style="display: inline-block;margin-left: 20px;list-style-type:circle ;">View 5 replies </li>
+              </ul>
+              <p style="margin-left: 50px;">... Load more replies</p>
+
+              <div class="divdur">
+                <img width="10%" height="50px" style="border-radius: 50px;display: inline-block;" src="./01.jpg" alt="">
+
+                <div style="width: 50%;" class="divdurr">
+                    <h5 style="display: inline-block;">Frances Guerrero</h5>
+                    <span style="float: right;">5hr</span>
+                    <p>Congratulations:)</p>
+                    <div style="padding: 10px;background-color: white;border-radius: 5px;">
+                    <img src="./12 (1).svg" alt="">
+                    </div>
+                </div>
+              </div>
+              <ul>
+                <li style="display: inline-block;margin-left: 20px;list-style-type:circle ;">Like (3) </li>
+                <li style="display: inline-block;margin-left: 20px;list-style-type:circle ;">Reply </li>
+                <li style="display: inline-block;margin-left: 20px;list-style-type:circle ;">View 5 replies </li>
+              </ul>
+              <p>... Load more comments</p>
+            </div>
+            </div>
+          </div>
+         <div style="padding: 15px; background-color: white;margin-top: 30px;">
+          <img width="10%" style="border-radius: 50px;" src="./13.svg" alt="">
+          <b>Judy Nyugen</b>
+          <span style="float: right;">...</span>
+          <p style="margin-top: 10px;">I'm so privileged to be involved in the @bootstrap hiring process! Interviewing with their team was fun and I hope this can be a valuable resource for folks!</p>
+      
+          <div style="margin-top: 20px;">
+          <i class="fa-solid fa-heart"></i>
+          <span>Lorem ipsum dolor sit amet.</span>
+          <span style="float: right;color: grey;">comments (12) </span>
+          <ul style="display: flex;justify-content:space-between;margin-top: 20px; border: 1px solid grey;border-left: none;border-right: none; padding: 10px;">
+            <li style="display: inline-block;"><a style="padding: 5px 10px;text-decoration: none;background-color: rgb(209, 209, 209);border-radius: 5px;" href="">Liked 56</a></li>
+            <li style="display: inline-block;">Share (3) </li>
+            <li style="display: inline-block;">Send </li>
+          </ul> 
+          </div>
+         </div>
+         <div class="p-3 bg-light text-dark mt-4">
+              <b>People You may know</b>
+              <span> <a href="#" style="background-color: rgb(183, 183, 255);border-radius: 5px;padding: 5px 10px;text-decoration: none;float: right;" class="buttoun">See all</a></span>
+              <div class="owl-carousel owl-theme">
+                <div class="item_2"><img class="faffa"  style="border-radius: 50px;" src="./09.jpg" alt=""><b style="font-size: 10px;">Louis Crawford</b>
+                <p>50 mutual</p>
+                <p>Connection</p>
+              </div>
+                <div class="item_2"><img class="faffa"  style="border-radius: 50px;" src="./09.jpg" alt=""><b style="font-size: 10px;">Louis Crawford</b>
+                <p>50 mutual</p>
+                <p>Connection</p>
+              </div>
+                <div class="item_2"><img class="faffa"  style="border-radius: 50px;" src="./09.jpg" alt=""><b style="font-size: 10px;">Louis Crawford</b>
+                <p>50 mutual</p>
+                <p>Connection</p>
+              </div>
+                <div class="item_2"><img class="faffa"  style="border-radius: 50px;" src="./09.jpg" alt=""><b style="font-size: 10px;">Louis Crawford</b>
+                <p>50 mutual</p>
+                <p>Connection</p>
+              </div>
+                <div class="item_2"><img class="faffa"  style="border-radius: 50px;" src="./09.jpg" alt=""><b style="font-size: 10px;">Louis Crawford</b>
+                <p>50 mutual</p>
+                <p>Connection</p>
+              </div>
+                <div class="item_2"><img  class="faffa" style="border-radius: 50px;" src="./09.jpg" alt=""><b style="font-size: 10px;">Louis Crawford</b>
+                <p>50 mutual</p>
+                <p>Connection</p>
+              </div>
+                <div class="item_2"><img style="border-radius: 50px;" src="./09.jpg" alt=""><b style="font-size: 10px;">Louis Crawford</b>
+                <p>50 mutual</p>
+                <p>Connection</p>
+              </div>
+                <div class="item_2"><img style="border-radius: 50px;" src="./09.jpg" alt=""><b style="font-size: 10px;">Louis Crawford</b>
+                <p>50 mutual</p>
+                <p>Connection</p>
+              </div>
+                <div class="item_2"><img style="border-radius: 50px;" src="./09.jpg" alt=""><b style="font-size: 10px;">Louis Crawford</b>
+                <p>50 mutual</p>
+                <p>Connection</p>
+              </div>
+                <div class="item_2"><img style="border-radius: 50px;" src="./09.jpg" alt=""><b style="font-size: 10px;">Louis Crawford</b>
+                <p>50 mutual</p>
+                <p>Connection</p>
+              </div>
+                <div class="item_2"><img style="border-radius: 50px;" src="./09.jpg" alt=""><b style="font-size: 10px;">Louis Crawford</b>
+                <p>50 mutual</p>
+                <p>Connection</p>
+              </div>
+                <div class="item_2"><img style="border-radius: 50px;" src="./09.jpg" alt=""><b style="font-size: 10px;">Louis Crawford</b>
+                <p>50 mutual</p>
+                <p>Connection</p>
+              </div>
+            </div>
+         </div>
+         <div style="padding: 20px;background-color: white;">
+           <img width="10%" style="border-radius: 50px;" src="./04.jpg" alt="">
+           <b>All in the mind</b>
+           <span style="float: right;">...</span>
+           <p class="mt-3">How do you protect your business against cyber-crime?</p>
+           <button style="margin-top: 10px;" class="nom border border-primary form-control text-primary">Lorem ipsum dolor sit amet consectetur.</button>
+           <button style="margin-top: 10px;" class="nom border border-primary form-control text-primary">Lorem ipsum dolor sit amet consectetur.</button>
+           <button style="margin-top: 10px;" class="nom border border-primary form-control text-primary">Lorem ipsum dolor sit amet consectetur.</button>
+           <button style="margin-top: 10px;" class="nom border border-primary form-control text-primary">Lorem ipsum dolor sit amet consectetur.</button>
+           <span class="sasd">263 votes </span>
+           <span class="sasd">2d left</span>
+           <div class="mt-4">
+            <span><i class="fa-solid fa-heart"></i> Louis Billy and 126 others</span>
+            <span style="float: right;"><i class="fa-solid fa-comment"></i> Comments (12) </span>
+           </div>
+           <hr>
+           <div style="display: flex;justify-content: space-between;">
+            
+           <span>Liked (56) </span>
+           <span>Liked (56) </span>
+           <span>Liked (56) </span>
+           </div>
+         </div>
+         <div style="padding: 20px;background-color: white;margin-top: 20px;">
+          <img width="10%" style="border-radius: 50px;" src="./04.jpg" alt="">
+          <b>All in the mind</b>
+          <span style="float: right;">...</span>
+          <p class="mt-3">How do you protect your business against cyber-crime?</p>
+          <div class="progress mt-3">
+            <div style="background-color: rgb(119, 119, 255); width: 25%;" class="progress-bar text-dark" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">Lorem ipsum dolor sit amet consectetur.</div>
+          </div>
+          <div style="background-color: rgb(119, 119, 255);" class="progress mt-3">
+            <div class="progress-bar text-dark" role="progressbar" style="width: 15%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Lorem ipsum dolor sit amet consectetur 25%</div>
+          </div>
+          <div style="background-color: rgb(119, 119, 255);" class="progress mt-3">
+            <div class="progress-bar text-dark" role="progressbar" style="width: 10%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Lorem ipsum dolor sit amet consectetur.</div>
+          </div>
+          <div style="background-color: rgb(119, 119, 255);" class="progress mt-3">
+            <div class="progress-bar text-dark" role="progressbar" style="width: 55%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Lorem ipsum dolor sit amet consectetur.</div>
+          </div>
+          <span class="sasd">263 votes </span>
+          <span class="sasd">2d left</span>
+          <div class="mt-4">
+           <span><i class="fa-solid fa-heart"></i> Louis Billy and 126 others</span>
+           <span style="float: right;"><i class="fa-solid fa-comment"></i> Comments (12) </span>
+          </div>
+          <hr>
+          <div style="display: flex;justify-content: space-between;">
+           
+          <span>Liked (56) </span>
+          <span>Liked (56) </span>
+          <span>Liked (56) </span>
+          </div>
+        </div>
+        <div style="padding: 20px;background-color: white;margin-top: 20px;">
+          <img width="10%" style="border-radius: 50px;" src="./04.jpg" alt="">
+          <b>All in the mind</b>
+          <span style="float: right;">...</span>
+          <p class="mt-3"> How do you protect your business against cyber-crime How do you protect your business against cyber-crime How do you protect your business against cyber-crime?</p>
+          <img width="100%" src="./03 (2).jpg" alt="">
+          <div class="mt-4">
+           <span style="float: right;"><i class="fa-solid fa-comment"></i> Comments (12) </span>
+          </div>
+          <hr>
+          <div style="display: flex;justify-content: space-between;">
+           
+          <span>Liked (56) </span>
+          <span>Liked (56) </span>
+          <span>Liked (56) </span>
+          </div>
+        </div>
+        <div style="padding: 20px;background-color: white;margin-top: 20px;">
+          <img width="10%" style="border-radius: 50px;" src="./04.jpg" alt="">
+          <b>All in the mind</b>
+          <span style="float: right;">...</span>
+          <p class="mt-3">How do you protect your business against cyber-crime?</p>
+          <img width="100%" src="./sam+bishop.jpg" alt="">
+          <div class="mayda">
+            <i style="color: blue;" class="fa-solid fa-thumbs-up"></i> <span style="color: blue;">(56)</span>
+            <i class="fa-solid fa-comment"></i> <span>Comments (12)</span>
+            <span style="float: right;"><i class="fa-solid fa-share"></i> Share (3)</span>
+          </div>
+          <div style="display: flex;margin-top: 20px;">
+            <img width="10%" style="border-radius: 50px;display: inline-block;" src="./01.jpg" alt="">
+            <input value="https://social.webestica.com/index.html#!" style="display: inline-block;margin-left: 10px;"
+              class="form-control" type="gmail">
+          </div>
+          <div class="col_6_4" style="margin-top: 20px;">
+            <div class="divdur">
+              <img width="10%" height="50px" style="border-radius: 50px;display: inline-block;" src="./01.jpg" alt="">
+
+              <div class="divdurr">
+                  <h5 style="display: inline-block;">Frances Guerrero</h5>
+                  <span style="float: right;">5hr</span>
+                  <p>Removed demands expense account in outward tedious do. Particular way thoroughly unaffected projection.</p>
+              </div>
+            </div>
+            <ul>
+              <li style="display: inline-block;margin-left: 20px;list-style-type:circle ;">Like (3) </li>
+              <li style="display: inline-block;margin-left: 20px;list-style-type:circle ;">Reply </li>
+              <li style="display: inline-block;margin-left: 20px;list-style-type:circle ;">View 5 replies </li>
+            </ul>
+            <div style="margin-top: 20px; margin-left: 55px;" class="divdur">
+              <img width="10%" height="50px" style="border-radius: 50px;display: inline-block;" src="./01.jpg" alt="">
+
+              <div class="divdurr">
+                  <h5 style="display: inline-block;">Frances Guerrero</h5>
+                  <span style="float: right;">5hr</span>
+                  <p>Removed demands expense account in outward tedious do. Particular way thoroughly unaffected projection.</p>
+              </div>
+            </div>
+            <ul style="margin-left: 55px;">
+              <li style="display: inline-block;margin-left: 20px;list-style-type:circle ;">Like (3) </li>
+              <li style="display: inline-block;margin-left: 20px;list-style-type:circle ;">Reply </li>
+              <li style="display: inline-block;margin-left: 20px;list-style-type:circle ;">View 5 replies </li>
+            </ul>
+            <span>... Load more comments</span>
+            </div>  
+        </div>
+        <button style="background-color: rgb(181, 181, 255);" class="nom text-primary form-control mt-3">Load More</button>
+                      </div>
+        </div>
+        <div style="height: 92vh;overflow: scroll; position: fixed; margin-left: 1266px; margin-top: 50px;" class="col-md-1">
+          <div class="col-lg">
+
+            <div class="d-flex align-items-center d-sm-none">
+              <button class="border-0 bg-transparent" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasSideNavbar" aria-controls="offcanvasSideNavbar">
+                <i class="btn btn-primary fw-bold fa-solid fa-sliders-h"></i>
+                <span class="h6 mb-0 fw-bold d-lg-none ms-2">My profile</span>
+              </button>
+            </div>
+
+            <nav class="navbar navbar-expand-lg mx-0">
+              <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasSideNavbar" style="visibility: hidden;"
+                aria-hidden="true">
+                <div class="offcanvas-header">
+                  <button type="button" class="btn-close text-reset ms-auto" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+                </div>
+
+                <div class="offcanvas-body d-block px-2 px-lg-0">
+                  <div class="card overflow-hidden">
+                    <div class="h-50px"
+                      style="background-image:url(assets/images/bg/01.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;">
+                    </div>
+                    <div class="card-body pb-50">
+                        <div class="avatar naos avatar-lg mt-n5">
+                          <ul class="saddas">
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <p class="nao"><li  class="nmas"><i class="fa-brands fa-twitter"></i></li></p>
+                            <li><i class="fa-brands fa-twitter"></i>v</li>
+                          </ul>
+                       
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+    integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+    $('.owl-carousel').owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 3
+        },
+        1000: {
+          items: 5
+        }
+      }
+    })
+  </script>
+</body>
+
+</html>
